@@ -18,8 +18,6 @@ The frontend is developed using React.js, which provides a dynamic and responsiv
 
 The AI and search functionality is powered by Sentence Transformers, which generate text embeddings for semantic understanding. These embeddings are indexed using FAISS (Facebook AI Similarity Search) for fast vector-based retrieval. Additionally, Cosine Similarity-based Semantic Search is used to improve the accuracy of search results based on meaning rather than exact keywords.
 
-📂 Project Structure
-
 AI-Assessment/
 │
 ├── backend/
