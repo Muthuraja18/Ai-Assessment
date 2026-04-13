@@ -1,0 +1,102 @@
+.user-doc-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #eff6ff, #e0e7ff);
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.user-doc-wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Heading */
+.heading-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading-box h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.heading-box p {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Empty state */
+.empty-box {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #6b7280;
+  font-size: 18px;
+}
+
+/* Grid */
+.doc-grid {
+  display: grid;
+  gap: 18px;
+}
+
+/* Card */
+.doc-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.doc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Text */
+.doc-info h3 {
+  font-size: 18px;
+  color: #111827;
+}
+
+.doc-info p {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 5px;
+}
+
+/* Button */
+.open-btn {
+  background: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.open-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Access denied */
+.access-denied {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+  background: #f3f4f6;
+}

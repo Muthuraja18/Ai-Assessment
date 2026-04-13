@@ -1,0 +1,5 @@
+JWT means JSON Web Token.
+FastAPI is used for backend.
+React is frontend library.
+Artificial Intelligence is smart.
+Python is useful for AI projects.
